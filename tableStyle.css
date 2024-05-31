@@ -1,0 +1,18 @@
+#table4{
+    border: 1px solid black;
+
+    
+}
+#table4 th,td{
+    border: 1px solid black;
+    min-height: 5px;
+    margin:0px;
+    padding: 0%;
+}
+#LimitWidth{
+    width: 10px;
+}
+#LastRow{
+    justify-content: space-evenly;
+    display: flex;
+}
