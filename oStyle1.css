@@ -1,0 +1,21 @@
+#TopElement{
+ align-items:center; height:20%; background-color:red
+}
+#Navigation-Place{
+ align-items:center; height:20%; background-color:purple
+}
+#Container1{
+ width:50%; display:grid; align-items:center; height:40%; background-color:blue
+}
+#Container-section{
+ height:50%; align-items:center; background-color:yellow
+}
+#Information{
+ height:50%; align-items:center:background-color:green
+}
+#SideElement{
+ height:40%; width:50%; display:grid; background-color:aqua
+}
+#BottomElement{
+ height:20%; align-items:center; background-color:pink
+}

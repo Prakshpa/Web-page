@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Sample</title>
+        <link rel="stylesheet" href="tableStyle.css">
+    </head>
+    <body>
+        <table id="table1" border="1" bgcolor="#aaaaaa" bordercolor="yellow" cellspacing="2" cellpadding="3">
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>30,000.00</td>
+            </tr>
+        </table><br>
+        <table id="table2" border="1" background="flower.jpg">
+            <tr>
+                <td rowspan="2">Name</td>
+                <td colspan="2">Address</td>
+            </tr>
+            <tr>
+                <td>Temporary</td>
+                <td>Permanent</td>
+            </tr>
+        </table><br>
+        <table id="table3" border="1" align="center">
+            <caption>A test table with merged cells</caption>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2" width="10">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+            <tr>
+                <th>Male</th>
+                <td>1.9</td>
+                <td>20</td>
+                <td>30%</td>
+            </tr>
+            <tr>
+                <th>Female</th>
+                <td>1.5</td>
+                <td>15</td>
+                <td>10%</td>
+            </tr>
+        </table><br>
+        <table id="table4">
+            <tr>
+                <th colspan="4">TV</th>
+            </tr>
+            <tr>
+                <th><a href="#home">Home</a></th>
+                <th><a href="#About">About us</a></th>
+                <th><a href="#Contact">Contact us</a></th>
+                <th id="LimitWidth">Team Member</th>
+            </tr>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Phone</th>
+                <th>email</th>
+            </tr>
+            <tr>
+                <th>FName</th>
+                <th>LName</th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>|</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div id="LastRow">
+                        <p><small>@copyright 2024</small></p>
+                        <p><small>Developed By: Prakash</small></p>
+                    </div>
+                </td>
+            </tr>
+        </table><br>
+        <table id="table5">
+            <caption>Order ID 123</caption>
+            <thead>
+                <tr>
+                    <th>Product name</th>
+                    <td>Qty</td>
+                    <td>Price</td>
+                    <td>Total Price</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. abc</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2. Def</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Tax</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Sub Total</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" >Total</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

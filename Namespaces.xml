@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:res="https://www.way2tutorial.com/some_url2"
+	 xmlns:r="https://www.way2tutorial.com/some_url3">
+  <r:result>
+    <r:name>Prakash Parajuli</r:name>
+    <r:gpa>3.02</r:gpa>
+  </r:result>
+  <res:cv>
+    <res:name>Prakash Parajuli</res:name>
+    <res:gpa>3.02</res:gpa>
+  </res:cv>
+</student>
